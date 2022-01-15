@@ -190,3 +190,25 @@ body{
     font-size: 14px;
     color: #D9DBE1;
 }
+
+/*-----------------
+    Media Queries
+------------------*/
+
+/* Mobile Devices
+-----------------*/
+@media only screen and (max-width:688px) {
+    .start-as-influencer{
+        background-color: blanchedalmond;
+        grid-template-columns: repeat;(1, 1fr);
+    }
+    .container{
+        width: 100%
+    }
+    .many-items{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .item-details{
+        flex-direction: column;
+    }
+}
