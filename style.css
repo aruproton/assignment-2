@@ -120,16 +120,12 @@ body{
 }
 
 
-/* .button {
-    background-color: white;
-    color: rgb(90, 10, 10);
-    border: none;
-    float: right;
-  } */
-
-  .align-right {
-    text-align: right;
+.see-more-btn{
+    padding: 10px, 50px;
+    background-color: blanchedalmond;
     border: 0;
+    cursor: pointer;
+    float: right;
   }
 
  /* ..........................
@@ -169,6 +165,7 @@ body{
     text-decoration: none;
     background-color: yellowgreen;
     border-radius: 5px;
+    cursor: pointer;
     
 }
 
@@ -207,8 +204,20 @@ body{
     }
     .many-items{
         grid-template-columns: repeat(1, 1fr);
-    }
-    .item-details{
         flex-direction: column;
     }
+}
+
+/* Tablet Divices
+------------------ */
+@media only screen and (min-width: 688px) and (max-width:992px) {
+    .container{
+        width: 100%;
+    }
+    .start-as-influencer{
+        grid-template-columns: repeat(2, 1fr);
+    } 
+    .many-items{
+        grid-template-columns: repeat(2, 1fr);
+    }   
 }
