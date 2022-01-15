@@ -21,19 +21,19 @@ body{
     width: 50%;
     padding-left: 120px;
     padding-top: 285px;
+    
 }
-.link-button{
-    width: 196px;
-    height: 44px;
-    text-decoration: none;
-    background-color: #E02C6D;
-    font-size: 16px;
-    font-weight: 700px;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 10px, 24px;
-    border-radius: 41px;
-    color: white;
+
+.start-as-influencer h1{
+    font-size: 52px;
+}
+.link_button{
+    color: #fdfbfc;
+    padding: 0px;
+    background-color: red;
+    border:crimson 2px;
+    border-radius: 1px;
+
 }
 .h1{
     font-size: 52px;
@@ -60,22 +60,133 @@ body{
  /*..........................
   popular collection style 
  ............................ */
-.second-part{
-    font-weight: 600px;
-    font-size: 28px;
-    padding-left: 588px;
-      
+.section-2{
+    
+    /* align-items: center; */
+    text-align:center;
+    
+
+}
+.popular{
+    color: tomato;
 }
 
 
+/* h1{
+    font-weight: 600px;
+    font-size: 28px;
+    padding-left: 588px;
+    text-align:center;
+    
+} */
+
+
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-auto-rows: (10px,auto); */
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+    width: 1000px;
+    height: 1600px;
+    align-items: center;
+   justify-items: center;
+   margin-left: 120px;
+   background-color: rgba(241, 236, 236, 0.8);
+ 
+
+   
+
+}
+
+/* .item-info{
+    display: flex;
+} */
+
+.many-items{
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+    padding: 12px;
+}
+
+.item-info{
+    text-align: left;
+    
+}
+.f-star{
+    color: rgb(255, 174, 0);
+}
+
+
+/* .button {
+    background-color: white;
+    color: rgb(90, 10, 10);
+    border: none;
+    float: right;
+  } */
+
+  .align-right {
+    text-align: right;
+    border: 0;
+  }
 
  /* ..........................
   featured products style 
  ............................ */
 
+.section-3{
+    padding-left: 80px;
+    padding-top: 100px;
+    padding: 100px;
+    width: 1210px;
+    height: 270px;
+}
 
+.gear{
+    display: flex;
+    width: 1110px;
+    height: 270px;
+}
+.gear h1{
+    font-size: 38px;
+}
+.art2{
+    font-size: 16px;
+}
+.img1{
+    width: 404px;
+    height: 270px;
+    left: 165px;
+    top: 2697px;
+}
+.text{
+    padding-left: 15%;
 
+}
+.join{
+    text-decoration: none;
+    background-color: yellowgreen;
+    border-radius: 5px;
+    
+}
 
  /*...............
   footer style 
  .................. */
+ .section-4{
+     text-align: center;
+     justify-content: center;
+     background-color: #0A0826;
+     padding-top: 120px;
+}
+.text3r{
+    font-size: 24px;
+    padding-bottom: 5%;
+    color: #D9DBE1;
+}
+.text4r{
+    font-size: 14px;
+    color: #D9DBE1;
+}
